@@ -1,0 +1,94 @@
+{
+  "users#destroy": [
+    {
+      "verb": "DELETE",
+      "path": "/users/980190962",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": "null",
+      "response_data": null,
+      "code": 204,
+      "show_in_doc": 0,
+      "recorded": true
+    }
+  ],
+  "users#index": [
+    {
+      "verb": "GET",
+      "path": "/users",
+      "versions": [
+
+      ],
+      "query": "null",
+      "request_data": null,
+      "response_data": [
+        {
+          "id": 980190962,
+          "name": "MyString",
+          "email": "MyString",
+          "created_at": "2017-05-09T16:23:19.359Z",
+          "updated_at": "2017-05-09T16:23:19.359Z"
+        },
+        {
+          "id": 298486374,
+          "name": "MyString",
+          "email": "MyString",
+          "created_at": "2017-05-09T16:23:19.359Z",
+          "updated_at": "2017-05-09T16:23:19.359Z"
+        }
+      ],
+      "code": 200,
+      "show_in_doc": 0,
+      "recorded": true
+    }
+  ],
+  "users#show": [
+    {
+      "verb": "GET",
+      "path": "/users/980190962",
+      "versions": [
+        "1.0"
+      ],
+      "query": "null",
+      "request_data": null,
+      "response_data": {
+        "id": 980190962,
+        "name": "MyString",
+        "email": "MyString",
+        "created_at": "2017-05-09T16:17:57.299Z",
+        "updated_at": "2017-05-09T16:17:57.299Z"
+      },
+      "code": 200,
+      "show_in_doc": 1,
+      "recorded": true
+    }
+  ],
+  "users#update": [
+    {
+      "verb": "PATCH",
+      "path": "/users/980190962",
+      "versions": [
+
+      ],
+      "query": null,
+      "request_data": {
+        "user": {
+          "email": "MyString",
+          "name": "MyString"
+        }
+      },
+      "response_data": {
+        "id": 980190962,
+        "name": "MyString",
+        "email": "MyString",
+        "created_at": "2017-05-09T16:17:57.299Z",
+        "updated_at": "2017-05-09T16:17:57.299Z"
+      },
+      "code": 200,
+      "show_in_doc": 0,
+      "recorded": true
+    }
+  ]
+}

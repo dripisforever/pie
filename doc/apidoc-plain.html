@@ -1,0 +1,107 @@
+  <h4><a href='#users'>Users</a></h4>
+  <ul>
+      <li><a href='#users-show'>show</a></li>
+      <li><a href='#users-create'>create</a></li>
+  </ul>
+
+
+
+  <hr/>
+
+  <div>
+    <h2 id="users">
+      <a href='#users'>Users</a><br>
+      <small></small>
+    </h2>
+  </div>
+
+
+  <div>
+
+      <hr/>
+
+      <h3 id="users-show">
+      <a href='#users'>Users</a> / <a href='#users-show'>show</a>
+      </h3>
+
+      <div>
+          <h4>
+              GET /users/:id
+            <br>
+            <small>Show a user</small>
+          </h4>
+      </div>
+
+      <div>
+        
+<h2 id="label-Fetch+User+Profile">Fetch User Profile<span><a href="#label-Fetch+User+Profile">&para;</a> <a href="#top">&uarr;</a></span></h2>
+
+<pre>This API is used to fetch the user profile details.</pre>
+
+<h3 id="label-Authentication+required">Authentication required<span><a href="#label-Authentication+required">&para;</a> <a href="#top">&uarr;</a></span></h3>
+
+<pre>Authentication token has to be passed as part of the request. It can be passed as parameter(auth_token) or HTTP header(AUTH-TOKEN).</pre>
+
+
+          <h4>Errors</h4>
+            404
+            User Profile not yet created
+            <pre class="prettyprint lang-yaml">--- 
+...
+</pre>
+
+            <br>
+
+          <h4>Params</h4>
+          <ul>
+    <li>
+      <strong>id </strong>:
+      <small>
+        required
+        
+          [ 
+<p>Must be a String</p>
+ ]
+      </small>
+      
+    </li>
+    
+</ul>
+
+      </div>
+      <hr/>
+
+      <h3 id="users-create">
+      <a href='#users'>Users</a> / <a href='#users-create'>create</a>
+      </h3>
+
+      <div>
+          <h4>
+              POST /users
+            <br>
+            <small>Create an user</small>
+          </h4>
+      </div>
+
+      <div>
+        
+
+
+          <h4>Params</h4>
+          <ul>
+    <li>
+      <strong>name </strong>:
+      <small>
+        required
+        
+          [ 
+<p>Must be a String</p>
+ ]
+      </small>
+      
+    </li>
+    
+</ul>
+
+      </div>
+  </div>
